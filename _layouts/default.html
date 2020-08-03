@@ -10,7 +10,7 @@
 </head>
 
 <body>
-    <div class="min-h-screen p-8 bg-webgradient-morpheus-den font-body">
+    <div class="min-w-full min-h-screen p-8 bg-webgradient-morpheus-den font-body">
         <div class="flex flex-col p-8 pb-16 space-y-8 rounded-lg bg-webgradient-vicious-stance">
             <div class="flex space-x-4">
                 <div class="w-4 h-4 bg-red-500 rounded-full md:w-5 md:h-5"></div>
@@ -19,11 +19,11 @@
             </div>
             <div class="space-y-20">
                 <div>
-                    <h1 class="text-4xl font-semibold text-gray-200 md:text-5xl">&lt;?jtinfo();</h1>
+                    <h1 class="text-3xl font-semibold text-gray-200 md:text-5xl">&lt;?jtinfo();</h1>
                 </div>
                 <div>
-                    <p class="text-4xl font-semibold text-gray-200 md:text-5xl">$bio['who'];</p>
-                    <div class="ml-16 text-2xl text-gray-200 md:text-3xl">jt smith = ['<a
+                    <p class="text-3xl font-semibold text-gray-200 md:text-5xl">$bio['who'];</p>
+                    <div class="ml-8 text-xl text-gray-200 md:ml-16 md:text-3xl">jt smith = ['<a
                             class="transition duration-200 ease-in-out text-morpheus hover:text-nexxai"
                             href="https://nexxai.dev">blog</a>'
                         ,
@@ -35,8 +35,8 @@
                     </div>
                 </div>
                 <div>
-                    <p class="text-4xl font-semibold text-gray-200 md:text-5xl">$bio['what'];</p>
-                    <div class="ml-16 text-2xl text-gray-200 md:text-3xl">
+                    <p class="text-3xl font-semibold text-gray-200 md:text-5xl">$bio['what'];</p>
+                    <div class="ml-8 text-xl text-gray-200 md:ml-16 md:text-3xl">
                         ['<a class="transition duration-200 ease-in-out text-morpheus hover:text-laravel"
                             href="https://laravel.com">laravel</a>'
                         ,
@@ -51,39 +51,41 @@
                     </div>
                 </div>
                 <div>
-                    <p class="text-4xl font-semibold text-gray-200 md:text-5xl">$bio['where'];</p>
-                    <div class="ml-16 text-2xl text-gray-200 md:text-3xl">
-                        \<span class="text-yellow-500">Canada</span><span class="text-gray-200">\<span
-                                class="text-yellow-500">Alberta</span><span class="text-gray-200">\<span
-                                    class="text-yellow-500">Calgary</span><span class="text-teal-300">::<span
-                                        class="text-blue-500">current</span><span class="text-teal-300">();</span>
+                    <p class="text-3xl font-semibold text-gray-200 md:text-5xl">$bio['where'];</p>
+                    <div class="space-y-4">
+                        <div class="ml-8 text-xl text-gray-200 md:ml-16 md:text-3xl">
+                            <span class="inline-block">\Canada</span><span class="inline-block">\Alberta</span><span
+                                class="inline-block">\Calgary::</span><span class="inline-block">current();</span>
+                        </div>
+                        <div class="ml-8 text-xl text-gray-200 md:ml-16 md:text-3xl">
+                            <span class="inline-block">\Bermuda</span><span class="inline-block">\Hamilton::</span><span
+                                class="inline-block">previous();</span>
+                        </div>
+                        <div class="ml-8 text-xl text-gray-200 md:ml-16 md:text-3xl">
+                            <span class="inline-block">\Canada</span><span class="inline-block">\Manitoba</span><span
+                                class="inline-block">\Winnipeg::</span><span class="inline-block">previous();</span>
+                        </div>
                     </div>
-                    <div class="ml-16 text-2xl text-gray-200 md:text-3xl">
-                        \<span class="text-yellow-500">Bermuda</span><span class="text-gray-200">\<span
-                                class="text-yellow-500">Hamilton</span><span class="text-teal-300">::<span
-                                    class="text-blue-500">previous</span><span class="text-teal-300">();</span>
-                    </div>
-                    <div class="ml-16 text-2xl text-gray-200 md:text-3xl">
-                        \<span class="text-yellow-500">Canada</span><span class="text-gray-200">\<span
-                                class="text-yellow-500">Manitoba</span><span class="text-gray-200">\<span
-                                    class="text-yellow-500">Winnipeg</span><span class="text-teal-300">::<span
-                                        class="text-blue-500">previous</span><span class="text-teal-300">();</span>
+
+                </div>
+                <div>
+                    <p class="text-3xl font-semibold text-gray-200 md:text-5xl">$bio['when'];</p>
+                    <div class="ml-8 text-xl text-gray-200 md:ml-16 md:text-3xl">
+                        <span class="inline-block">\Carbon::</span><span
+                            class="inline-block">now()->subYears(20);</span> <span class="italic text-gray-600">#
+                            professionally speaking, of course</span>
                     </div>
                 </div>
                 <div>
-                    <p class="text-4xl font-semibold text-gray-200 md:text-5xl">$bio['when'];</p>
-                    <div class="ml-16 text-2xl text-gray-200 md:text-3xl">
-                        \<span class="text-yellow-500">Carbon</span><span class="text-teal-300">::</span><span class="text-blue-500">now</span><span class="text-teal-300">()-></span><span class="text-blue-500">subYears</span><span class="text-teal-300">(</span><span class="text-blue-500">20</span><span class="text-teal-300">);</span> <span class="italic text-gray-900"># professionally speaking, of course</span>
+                    <p class="text-3xl font-semibold text-gray-200 md:text-5xl">$bio['why'];</p>
+                    <div class="ml-8 text-xl text-gray-200 md:ml-16 md:text-3xl">for fun and profit and sometimes both
+                        at the
+                        same time
                     </div>
                 </div>
                 <div>
-                    <p class="text-4xl font-semibold text-gray-200 md:text-5xl">$bio['why'];</p>
-                    <div class="ml-16 text-2xl text-gray-200 md:text-3xl">for fun and profit and sometimes both at the same time
-                    </div>
-                </div>
-                <div>
-                    <p class="text-4xl font-semibold text-gray-200 md:text-5xl">$bio['how'];</p>
-                    <div class="ml-16 text-2xl text-gray-200 md:text-3xl">
+                    <p class="text-3xl font-semibold text-gray-200 md:text-5xl">$bio['how'];</p>
+                    <div class="ml-8 text-xl text-gray-200 md:ml-16 md:text-3xl">
                         ['<a class="transition duration-200 ease-in-out text-morpheus hover:text-phpstorm"
                             href="https://www.jetbrains.com/phpstorm/">phpstorm</a>'
                         ,
