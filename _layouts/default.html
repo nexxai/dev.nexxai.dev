@@ -1,102 +1,107 @@
 <html>
 
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta charset="utf-8">
-    <title>jtinfo();</title>
-    {% feed_meta %}
-    {% seo %}
-    <link rel="stylesheet" href="/css/site.css">
-    <link href="https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+  <title>jtinfo();</title>
+  {% feed_meta %}
+  {% seo %}
+  <link rel="stylesheet" href="/css/site.css">
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;500&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <div class="min-w-full min-h-screen p-8 bg-webgradient-morpheus-den font-body">
-        <div class="flex flex-col p-8 pb-16 space-y-8 rounded-lg md:mx-8 lg:mx-16 xl:mx-32 bg-webgradient-vicious-stance">
-            <div class="flex space-x-4">
-                <div class="w-4 h-4 bg-red-500 rounded-full md:w-5 md:h-5"></div>
-                <div class="w-4 h-4 bg-yellow-500 rounded-full md:w-5 md:h-5"></div>
-                <div class="w-4 h-4 bg-green-500 rounded-full md:w-5 md:h-5"></div>
-            </div>
-            <div class="space-y-20">
-                <div>
-                    <h1 class="text-3xl font-semibold text-gray-200 md:text-5xl">&lt;?jtinfo();</h1>
-                </div>
-                <div>
-                    <p class="text-3xl font-semibold text-gray-200 md:text-5xl">$bio['who'];</p>
-                    <div class="ml-8 text-xl text-gray-200 md:ml-16 md:text-3xl">jt smith = ['<a
-                            class="transition duration-200 ease-in-out text-morpheus hover:text-nexxai"
-                            href="https://nexxai.dev">blog</a>'
-                        ,
-                        '<a class="transition duration-200 ease-in-out text-morpheus hover:text-github"
-                            href="https://github.com/nexxai">github</a>'
-                        ,
-                        '<a class="transition duration-200 ease-in-out text-morpheus hover:text-azure"
-                            href="https://www.linkedin.com/in/justinscottsmith/">linkedin</a>']
-                    </div>
-                </div>
-                <div>
-                    <p class="text-3xl font-semibold text-gray-200 md:text-5xl">$bio['what'];</p>
-                    <div class="ml-8 text-xl text-gray-200 md:ml-16 md:text-3xl">
-                        ['<a class="transition duration-200 ease-in-out text-morpheus hover:text-laravel"
-                            href="https://laravel.com">laravel</a>'
-                        ,
-                        '<a class="transition duration-200 ease-in-out text-morpheus hover:text-terraform"
-                            href="https://terraform.io">terraform</a>'
-                        ,
-                        '<a class="transition duration-200 ease-in-out text-morpheus hover:text-azure"
-                            href="https://azure.microsoft.com">azure</a>'
-                        ,
-                        '<a class="transition duration-200 ease-in-out text-morpheus hover:text-aws"
-                            href="https://aws.amazon.com">aws</a>']
-                    </div>
-                </div>
-                <div>
-                    <p class="text-3xl font-semibold text-gray-200 md:text-5xl">$bio['where'];</p>
-                    <div class="space-y-4">
-                        <div class="ml-8 text-xl text-gray-200 md:ml-16 md:text-3xl">
-                            <span class="inline-block">\Canada</span><span class="inline-block">\Alberta</span><span
-                                class="inline-block">\Calgary::</span><span class="inline-block">current();</span>
-                        </div>
-                        <div class="ml-8 text-xl text-gray-200 md:ml-16 md:text-3xl">
-                            <span class="inline-block">\Bermuda</span><span class="inline-block">\Hamilton::</span><span
-                                class="inline-block">previous();</span>
-                        </div>
-                        <div class="ml-8 text-xl text-gray-200 md:ml-16 md:text-3xl">
-                            <span class="inline-block">\Canada</span><span class="inline-block">\Manitoba</span><span
-                                class="inline-block">\Winnipeg::</span><span class="inline-block">previous();</span>
-                        </div>
-                    </div>
-
-                </div>
-                <div>
-                    <p class="text-3xl font-semibold text-gray-200 md:text-5xl">$bio['when'];</p>
-                    <div class="ml-8 text-xl text-gray-200 md:ml-16 md:text-3xl">
-                        <span class="inline-block">\Carbon</span><span class="inline-block">\Carbon::</span><span
-                            class="inline-block">now()->subYears(20);</span> <span class="italic text-gray-600">#
-                            professionally speaking, of course</span>
-                    </div>
-                </div>
-                <div>
-                    <p class="text-3xl font-semibold text-gray-200 md:text-5xl">$bio['why'];</p>
-                    <div class="ml-8 text-xl text-gray-200 md:ml-16 md:text-3xl">for fun and profit and sometimes both
-                        at the
-                        same time
-                    </div>
-                </div>
-                <div>
-                    <p class="text-3xl font-semibold text-gray-200 md:text-5xl">$bio['how'];</p>
-                    <div class="ml-8 text-xl text-gray-200 md:ml-16 md:text-3xl">
-                        ['<a class="transition duration-200 ease-in-out text-morpheus hover:text-phpstorm"
-                            href="https://www.jetbrains.com/phpstorm/">phpstorm</a>'
-                        ,
-                        '<a class="transition duration-200 ease-in-out text-morpheus hover:text-azure"
-                            href="https://code.visualstudio.com/">vs code</a>']
-                    </div>
-                </div>
-            </div>
+  <div class="min-w-full min-h-screen p-8 bg-webgradient-morpheus-den font-body">
+    <div class="flex flex-col p-8 pb-16 space-y-8 rounded-lg md:mx-8 lg:mx-16 xl:mx-32 bg-webgradient-vicious-stance">
+      <div class="flex space-x-4">
+        <div class="w-4 h-4 bg-red-500 rounded-full md:w-5 md:h-5"></div>
+        <div class="w-4 h-4 bg-yellow-500 rounded-full md:w-5 md:h-5"></div>
+        <div class="w-4 h-4 bg-green-500 rounded-full md:w-5 md:h-5"></div>
+      </div>
+      <div class="space-y-20">
+        <div>
+          <h1 class="text-3xl font-semibold text-gray-200 md:text-5xl">&lt;?jtinfo();</h1>
         </div>
+        <div>
+          <p class="text-3xl font-semibold text-gray-200 md:text-5xl">$bio['who'];</p>
+          <div class="ml-8 text-xl text-gray-200 md:ml-16 md:text-3xl">jt smith = ['<a
+              class="transition duration-200 ease-in-out text-morpheus hover:text-nexxai"
+              href="https://nexxai.dev">blog</a>'
+            ,
+            '<a class="transition duration-200 ease-in-out text-morpheus hover:text-github"
+              href="https://github.com/nexxai">github</a>'
+            ,
+            '<a class="transition duration-200 ease-in-out text-morpheus hover:text-azure"
+              href="https://www.linkedin.com/in/justinscottsmith/">linkedin</a>']
+          </div>
+        </div>
+        <div>
+          <p class="text-3xl font-semibold text-gray-200 md:text-5xl">$bio['what'];</p>
+          <div class="ml-8 text-xl text-gray-200 md:ml-16 md:text-3xl">
+            ['<a class="transition duration-200 ease-in-out text-morpheus hover:text-laravel"
+              href="https://laravel.com">laravel</a>'
+            ,
+            '<a class="transition duration-200 ease-in-out text-morpheus hover:text-laravel"
+              href="https://livewire.laravel.com">livewire</a>'
+            ,
+            '<a class="transition duration-200 ease-in-out text-morpheus hover:text-laravel"
+              href="https://js.org">javascript</a>'
+            ,
+            '<a class="transition duration-200 ease-in-out text-morpheus hover:text-terraform"
+              href="https://terraform.io">terraform</a>'
+            ,
+            '<a class="transition duration-200 ease-in-out text-morpheus hover:text-azure"
+              href="https://azure.microsoft.com">azure</a>'
+            ,
+            '<a class="transition duration-200 ease-in-out text-morpheus hover:text-aws"
+              href="https://aws.amazon.com">aws</a>']
+          </div>
+        </div>
+        <div>
+          <p class="text-3xl font-semibold text-gray-200 md:text-5xl">$bio['where'];</p>
+          <div class="space-y-4">
+            <div class="ml-8 text-xl text-gray-200 md:ml-16 md:text-3xl">
+              <span class="inline-block">\Canada</span><span class="inline-block">\Alberta</span><span
+                class="inline-block">\Calgary::</span><span class="inline-block">current();</span>
+            </div>
+            <div class="ml-8 text-xl text-gray-200 md:ml-16 md:text-3xl">
+              <span class="inline-block">\Bermuda</span><span class="inline-block">\Hamilton::</span><span
+                class="inline-block">previous();</span>
+            </div>
+            <div class="ml-8 text-xl text-gray-200 md:ml-16 md:text-3xl">
+              <span class="inline-block">\Canada</span><span class="inline-block">\Manitoba</span><span
+                class="inline-block">\Winnipeg::</span><span class="inline-block">previous();</span>
+            </div>
+          </div>
+
+        </div>
+        <div>
+          <p class="text-3xl font-semibold text-gray-200 md:text-5xl">$bio['when'];</p>
+          <div class="ml-8 text-xl text-gray-200 md:ml-16 md:text-3xl">
+            <span class="inline-block">\Carbon</span><span class="inline-block">\Carbon::</span><span
+              class="inline-block">now()->subYears(23);</span> <span class="italic text-gray-600">#
+              professionally speaking, of course</span>
+          </div>
+        </div>
+        <div>
+          <p class="text-3xl font-semibold text-gray-200 md:text-5xl">$bio['why'];</p>
+          <div class="ml-8 text-xl text-gray-200 md:ml-16 md:text-3xl">getting technology to do new and exciting things
+            makes me happy; building things brings me joy
+          </div>
+        </div>
+        <div>
+          <p class="text-3xl font-semibold text-gray-200 md:text-5xl">$bio['how'];</p>
+          <div class="ml-8 text-xl text-gray-200 md:ml-16 md:text-3xl">
+            ['<a class="transition duration-200 ease-in-out text-morpheus hover:text-phpstorm"
+              href="https://www.jetbrains.com/phpstorm/">phpstorm</a>'
+            ,
+            '<a class="transition duration-200 ease-in-out text-morpheus hover:text-azure"
+              href="https://code.visualstudio.com/">vs code</a>']
+          </div>
+        </div>
+      </div>
     </div>
+  </div>
 </body>
 
 </html>
