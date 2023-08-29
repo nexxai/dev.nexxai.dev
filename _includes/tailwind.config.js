@@ -9,6 +9,7 @@ module.exports = {
                 'morpheus': '#30cfd0',
                 'nexxai': '#005bea',
                 'github': '#24292e',
+                'javascript': '#FFFF00',
                 'den': '#6e45e2',
                 'laravel': '#ff2d20',
                 'terraform': '#623ce4',
